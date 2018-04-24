@@ -1,0 +1,32 @@
+{
+  "name": "graphql-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/integration/*-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myhed/graphql.git"
+  },
+  "author": "Myhed Ben-Rhouma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/myhed/graphql/issues"
+  },
+  "homepage": "https://github.com/myhed/graphql#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "express-graphql": "^0.6.12",
+    "graphql": "^0.13.2",
+    "request": "^2.85.0",
+    "request-promise": "^4.2.2"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.1.1",
+    "sinon": "^4.5.0"
+  }
+}
