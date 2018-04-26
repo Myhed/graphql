@@ -31,7 +31,7 @@ describe('server',() => {
                 json:true,
                 //resolveWithFullResponse:true
             }
-            expect(await rp(options)).to.eql({data:{hello:'Hello world!'}});
+            expect(await rp(options)).to.eql({data:{hello:["14"]}});
         });
     });
 });
